@@ -1,3 +1,46 @@
-body{
-background-color: aquamarine;
+
+.presentacion{
+    color: crimson; 
 }
+
+.fuente{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color1{
+    color: rgb(255, 16, 16);
+}
+
+.header{
+    width: 100;
+    background: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    height: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.negrita{
+    color: black;
+}
+  .caja{
+    padding-top: 0px;
+    border: 2px solid;
+  
+  }
+  .enlaces{
+    background: cornflowerblue;
+    color: blueviolet;
+  }
+  .suma {
+    background-color: rgb(247, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    color: bisque;
+    text-decoration: none;
+  }
+  h4{
+    font-style: italic;
+  }
+ 
+
