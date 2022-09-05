@@ -1,0 +1,96 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  .header{
+    background: hsl(160, 82%, 85%);
+    color: white;
+    height: 80px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo{
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+  }
+  .logo a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  .navbar{
+    background: blueviolet;
+    color: white;
+  }
+  .navbar ul li{
+    display: inline-block;
+  }
+.navbar ul {
+    text-align: center;
+}
+.navbar ul a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+
+.navbar ul li a:hover{
+    background: white;
+    color: red;
+}
+#portada{
+    width: 80%;
+    background: rgb(253, 209, 240);
+    padding: 1.6em;
+    box-sizing: border-box;
+    float: left;
+}
+.destacado, :default{
+    background: rgb(255, 255, 255);
+    padding: 0.7em;
+}
+.caja{
+  padding-top: 0px;
+  border: 2px solid;
+}
+.footer{
+  clear: both;
+  background: blueviolet;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  text-align: center;
+}
+.barra{
+  background:hsl(160, 82%, 85%) ;
+}
+.barra a:hover{
+  background:  hsl(0, 0%, 100%);
+  color: brown; 
+}
+.video{
+  width: 20%;
+  background: hsl(160, 82%, 85%);
+  height: 200px;
+  box-sizing: border-box;
+  float: right;
+  text-align: center;
+}
+.float{
+  clear: both;
+  margin-right: 25px;
+}
+.texto{
+  text-align: center;
+  width: 20%;
+}
+.texto2{
+  background: rgb(253, 209, 240);
+  color: rgb(0, 0, 0);
+  width: 40%;
+}
+  
