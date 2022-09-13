@@ -6,7 +6,7 @@ html{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   }
   .header{
-    background: hsl(160, 82%, 85%);
+    background: hsl(29, 100%, 49%);
     color: white;
     height: 80px;
     width: auto;
@@ -23,7 +23,7 @@ html{
     color: rgb(0, 0, 0);
   }
   .navbar{
-    background: blueviolet;
+    background: hsl(44, 100%, 48%)  ;
     color: white;
   }
   .navbar ul li{
@@ -45,13 +45,14 @@ html{
 }
 #portada{
     width: 80%;
-    background: rgb(253, 209, 240);
+    background:hsl(66, 100%, 49%); 
     padding: 1.6em;
     box-sizing: border-box;
     float: left;
 }
 .destacado, :default{
-    background: rgb(255, 255, 255);
+  background-color: crimson;
+  color: white;
     padding: 0.7em;
 }
 .caja{
@@ -60,7 +61,7 @@ html{
 }
 .footer{
   clear: both;
-  background: blueviolet;
+  background: hsl(44, 100%, 48%); 
   color: rgb(255, 255, 255);
   margin-top: 10px;
   text-align: center;
@@ -74,7 +75,7 @@ html{
 }
 .video{
   width: 20%;
-  background: hsl(160, 82%, 85%);
+  background: hsl(66, 100%, 49%);
   height: 200px;
   box-sizing: border-box;
   float: right;
@@ -89,8 +90,15 @@ html{
   width: 20%;
 }
 .texto2{
-  background: rgb(253, 209, 240);
+  background: rgb(250, 213, 2);
   color: rgb(0, 0, 0);
   width: 40%;
 }
-  
+.color{
+  background-color: black;
+  color: white;
+}
+.navv{
+  background-color: crimson;
+  color: white;
+}
